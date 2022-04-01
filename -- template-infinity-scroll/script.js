@@ -62,7 +62,7 @@ async function getPhotos() {
     photosArray = await response.json();
     displayPhotos();
   } catch (error) {
-    // Catch Error Here
+    console.log('Whoops,no data ' +error)
   }
 }
 
